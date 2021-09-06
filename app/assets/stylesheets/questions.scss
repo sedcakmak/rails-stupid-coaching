@@ -1,0 +1,33 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$gray: #F4F4F4;
+$font-stack: arial, sans-serif;
+$font-size: 24px;
+$border: 2px solid black;
+$border-radius: 4px;
+$dark-gray: #EBEBEB;
+
+ body {
+   background: $gray;
+   font: 100% $font-stack;
+   font-size: $font-size;
+ }
+body {
+  background: $gray;
+  input[type="text"] {
+    border: $border;
+    border-radius: $border-radius;
+    background: $dark-gray;
+  }
+}
+
+body {
+  input[type="submit"] {
+    border: $border;
+    border-radius: $border-radius;
+    background: $dark-gray;
+    font-family: $font-stack;
+  }
+}
